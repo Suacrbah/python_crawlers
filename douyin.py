@@ -58,7 +58,7 @@ while True:
 
 try:
     print('Analyzed total of ' + str(total) + ' comments')
-    print('The words disered appeared in ' + str(count) + ' comments')
+    print('The words desired appeared in ' + str(count) + ' comments')
     percentage = str(round((count/total)*100, 4)) + '%'
     print('Percentage of appearance: ' + percentage)
 except Exception:
